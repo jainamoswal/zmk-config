@@ -5,19 +5,15 @@
  */
 
 #include <behaviors.dtsi>
-#include <dt-bindings/zmk/bt.h>
-#include <dt-bindings/zmk/ext_power.h>
 #include <dt-bindings/zmk/keys.h>
 
 / {
-    combos {
-        compatible = "zmk,combos";
-
-        turn-off {
-            bindings = <&soft_off>;
-            key-positions = <0 1 2>;
-            timeout-ms = <20>;
-            require-prior-idle-ms = <2>;
+    macros {
+        f: f {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LS(F) &kp U &kp C &kp K &kp SPACE &kp Y &kp O &kp U>;
+            label = "F";
         };
     };
 
@@ -26,10 +22,10 @@
 
         default_layer {
             bindings = <
-&bt BT_NXT  &bt BT_PRV         &bt BT_CLR
-&kp K_EXEC  &kp K_POWER        &kp C_AL_FILE_BROWSER
-&kp K_WWW   &ext_power EP_TOG  &kp K_CUT
-&kp K_CUT   &kp K_COPY         &kp K_PASTE
+&f      &trans  &trans
+&trans  &trans  &trans
+&trans  &trans  &trans
+&trans  &trans  &trans
             >;
         };
     };
