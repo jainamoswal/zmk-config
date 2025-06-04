@@ -37,7 +37,7 @@
             bindings = <
     &bt BT_NXT &kp HOME &kp PG_UP
     &bt BT_PRV &kp END  &kp PG_DN
-    &bt BT_CLR &trans   &trans
+    &bt BT_CLR_ALL &trans   &trans
     &trans     &trans   &kp RET
             >;
         };
