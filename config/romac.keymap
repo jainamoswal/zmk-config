@@ -12,7 +12,7 @@
         f: f {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LS(F) &kp U &kp C &kp K &kp SPACE &kp Y &kp O &kp U>;
+            bindings = <&kp LS(F) &kp U &kp C &kp K &kp SPACE &kp Y &kp O &kp U &kp ENTER>;
             label = "F";
         };
     };
