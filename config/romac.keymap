@@ -13,16 +13,9 @@
 
         turn-off {
             bindings = <&soft_off>;
-            key-positions = <0 2 1>;
-        };
-    };
-
-    macros {
-        new_macro: new_macro {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp LS(M) &kp A &kp C &kp AT &kp N2 &kp N0 &kp N0 &kp N2>;
-            label = "NEW_MACRO";
+            key-positions = <0 1 2>;
+            timeout-ms = <20>;
+            require-prior-idle-ms = <2>;
         };
     };
 
