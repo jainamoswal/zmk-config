@@ -21,7 +21,7 @@
         github_jainamoswal: github_jainamoswal {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp G &kp I &kp T &kp SPACE &kp C &kp O &kp N &kp F &kp I &kp G &kp SPACE &kp U &kp S &kp E &kp R &kp DOT &kp N &kp A &kp M &kp E &kp SPACE &kp DQT &kp J &kp A &kp I &kp N &kp A &kp M &kp O &kp S &kp W &kp A &kp L &kp DQT &kp RET &kp G &kp I &kp T &kp SPACE &kp C &kp O &kp N &kp F &kp I &kp G &kp SPACE &kp U &kp S &kp E &kp R &kp DOT &kp E &kp M &kp A &kp I &kp L &kp SPACE &kp DQT &kp N7 &kp N6 &kp N0 &kp N5 &kp N7 &kp N3 &kp N4 &kp N8 &kp PLUS &kp J &kp A &kp I &kp N &kp A &kp M &kp O &kp S &kp W &kp A &kp L &kp AT &kp U &kp S &kp E &kp R &kp S &kp DOT &kp N &kp O &kp R &kp E &kp P &kp L &kp Y &kp DOT &kp G &kp I &kp T &kp H &kp U &kp B &kp DOT &kp C &kp O &kp M &kp DQT &kp RET>;
+            bindings = <&kp G &kp I &kp T &kp SPACE &kp C &kp O &kp N &kp F &kp I &kp G &kp SPACE &kp U &kp S &kp E &kp R &kp DOT &kp N &kp A &kp M &kp E &kp SPACE &kp DOUBLE_QUOTES &kp J &kp A &kp I &kp N &kp A &kp M &kp O &kp S &kp W &kp A &kp L &kp DOUBLE_QUOTES &kp RET &kp G &kp I &kp T &kp SPACE &kp C &kp O &kp N &kp F &kp I &kp G &kp SPACE &kp U &kp S &kp E &kp R &kp DOT &kp E &kp M &kp A &kp I &kp L &kp SPACE &kp DQT &kp N7 &kp N6 &kp N0 &kp N5 &kp N7 &kp N3 &kp N4 &kp N8 &kp PLUS &kp J &kp A &kp I &kp N &kp A &kp M &kp O &kp S &kp W &kp A &kp L &kp AT &kp U &kp S &kp E &kp R &kp S &kp DOT &kp N &kp O &kp R &kp E &kp P &kp L &kp Y &kp DOT &kp G &kp I &kp T &kp H &kp U &kp B &kp DOT &kp C &kp O &kp M &kp DQT &kp RET>;
             label = "GITHUB_JAINAMOSWAL";
         };
 
