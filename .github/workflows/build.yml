@@ -1,5 +1,14 @@
 name: Build ZMK firmware
-on: [workflow_dispatch]
+
+on:
+  push:
+    branches:
+      - master
+  workflow_dispatch:
+
+concurrency:
+  group: build-zmk-${{ github.ref }}
+  cancel-in-progress: true
 
 jobs:
   build:
